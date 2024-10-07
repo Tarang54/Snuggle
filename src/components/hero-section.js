@@ -8,7 +8,7 @@ import fifth from '../assets/vec4.png';
 
 const Hero = () =>{
     return(
-        <div className="hero-main mx-[70px] my-[30px] h-[600px] rounded-3xl relative overflow-hidden flex flex-col justify-center items-center gap-[16px]">
+        <div className="hero-main mx-[70px] my-[30px] mb-[220px] h-[600px] rounded-3xl relative overflow-hidden flex flex-col justify-center items-center gap-[16px]">
             <img src={fourth} className="w-1/4 absolute bottom-[250px] left-[-60px] scale-x-[-1]" alt="left"/>
             <img src={first} className="w-1/5 absolute top-[-20px] left-[-30px] " alt="left"/>
             <img src={second} className="w-3/12 absolute top-[-40px] right-[-60px] scale-x-[-1]" alt="left"/>

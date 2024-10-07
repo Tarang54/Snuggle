@@ -9,7 +9,7 @@ const Questions = () => {
     const [question4, setQuestion4] = useState(false);
     const [question5, setQuestion5] = useState(false);
     return(
-        <div className="mt-[120px] text-teal-950 w-1/2 m-auto">
+        <div className="mt-[100px] text-teal-950 w-1/2 m-auto">
             <p className="text-[36px] font-semibold questions-head text-left">Common questions</p>
             <div>
                 <div className="bg-white rounded-3xl py-[18px] px-[25px] my-[15px]">
