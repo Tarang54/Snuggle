@@ -7,7 +7,7 @@ const Footer = () => {
     return(
         <div className="w-5/6 flex justify-between m-auto mt-[120px] gap-[30px] mb-[60px]">
             <div className="footer-main text-white w-1/4 rounded-xl p-[20px] m-auto relative overflow-hidden h-[300px] z-10 flex flex-col gap-[20px] bg-color-class justify-around">
-                <img src={Vec} alt="Vec" className="absolute bottom-[-10px] left-[-30px] z-0 opacity-50"/> 
+                <img src={Vec} alt="Vec" className="absolute top-[-30px] left-[-30px] z-0 opacity-50"/> 
                 <p className="text-[25px] font-bold z-10">The bright side of the kid care</p>
                 <p className="z-10">Get reliable on-demand childcare from vetted sitters in your community</p>
                 <button className="bg-teal-200 text-teal-950 px-[15px] py-[8px] rounded-[30px] font-semibold text-[12px] w-fit cursor-pointer hover:bg-teal-900 hover:text-white z-10">Get Started</button>
@@ -34,7 +34,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="text-[12px] absolute bottom-[20px] left-[20px] z-10">Terms of Use · Privacy Policy</div>
-                <div className="font-bold logo text-[32px] absolute top-[20px] right-[20px] leading-[32px] z-10">Snuggle</div>
+                <div className="font-bold logo text-[32px] absolute top-[20px] right-[20px] leading-[32px] z-10"><a href="#">Snuggle</a></div>
             </div>
         </div>
     )
